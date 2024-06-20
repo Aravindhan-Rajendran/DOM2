@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees List</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <h2>New Employees</h2>
+        <form action="">
+            <div id="inputs">
+                <div class="in">
+                    <label for="name">Enter Name</label>
+                    <input type="text" id="name" placeholder="Enter Name" class="bor" />
+                </div>
+                <div class="in">
+                    <label for="Profession">Enter Profession</label>
+                    <input type="text" id="Profession" placeholder="Enter Profession" class="bor" />
+                </div>
+                <div class="in">
+                    <label for="age">Enter Age</label>
+                    <input type="text" id="age" placeholder="Enter Age" class="bor" />
+                </div>
+            </div>
+            <button type="button" id="adduser" onclick="addusers()">Add User</button>
+        </form>
+        <div>
+            <p id="Success">Success : Message Added</p>
+            <p id="error">Error :Please Make sure All the field before adding in an emplyee</p>
+        </div>
+        <div id="addedemp">
+            <p id="add" style=" margin-left: 50px;">Added Employees</p>
+            <p id="datanotfound">Data Not Found</p>
+            <div id="delbut">
+                <div id="box"></div>
+                <div id="deltebtn"><span><button type="button" id="del" onclick="delting()">Delete</button></span></div>
+            </div>
+        </div>
+        <script src="./script.js">
+        
+        </script>
+</body>
+
+</html>
